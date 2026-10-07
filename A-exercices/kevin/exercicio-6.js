@@ -5,3 +5,12 @@ const acimaDe50 = precos.filter(function(preco) {
 });
 
 console.log(acimaDe50.join(", "));
+
+const comDesconto = acimaDe50.map(function(preco) {
+    return preco - (preco * 10 / 100);
+});
+
+console.log(comDesconto.join(", "));
+
+console.log(acimaDe50.length);
+
