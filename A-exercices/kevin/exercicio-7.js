@@ -1,4 +1,4 @@
-const alunos = 
+const alunos = [
     { nome: "Ana", nota: 8 },
     { nome: "Bruno", nota: 6 },
     { nome: "Carla", nota: 10 }
